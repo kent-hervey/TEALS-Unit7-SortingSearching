@@ -4,7 +4,8 @@ public class InsertionTestApp {
 	
     public static void main(String[] args)
     {
-		int[] arr1 = {3, 86, -20, 14, 40};
+		int[] //arr1 = {3, 86, -20, 14, 40};
+		arr1 = { 1, 2, 3, 4, 0};
   		System.out.println(Arrays.toString(arr1));
   		InsertionSorting.insertionSort(arr1);
      	System.out.println(Arrays.toString(arr1));
