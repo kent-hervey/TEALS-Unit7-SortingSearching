@@ -6,9 +6,9 @@ public class InsertionTestApp {
     {
 		int[] //arr1 = {3, 86, -20, 14, 40};
 		arr1 = { 1, 2, 3, 4, 0};
-  		System.out.println(Arrays.toString(arr1));
+  		System.out.println("Array starts out as:  " + Arrays.toString(arr1));
   		InsertionSorting.insertionSort(arr1);
-     	System.out.println(Arrays.toString(arr1));
+     	System.out.println("Sorted array is:  " + Arrays.toString(arr1));
      } 
 	
 
