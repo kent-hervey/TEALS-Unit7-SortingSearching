@@ -22,7 +22,7 @@ public class InsertionSorting {
 				possibleIndex--;
 			}
 			elements[possibleIndex] = temp; // count these in question 17
-			tempAssignedCounter++;  //to do the count of what was requested in question 17
+			tempAssignedCounter++;  //to do the count of what was requested in question 17  
 			System.out.println("bottom of for loop\n");
 		}
 
@@ -34,7 +34,7 @@ public class InsertionSorting {
 	 * Brings in array and maximum index returning a string of the subset
 	 * 
 	 * @param elements is array coming in
-	 * @param j        index to stop outputing subset array
+	 * @param j        index to stop outputting subset array
 	 * @return string consisting of subset of elements
 	 */
 	private static String printSubArray(int[] elements, int j) {
